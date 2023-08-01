@@ -12,7 +12,7 @@
 				<div class="markdown-body chat-content" v-html="getMarkdown(chat.content)"></div>
 			</div>
 		</div>
-		<!-- 底部输入框 -->
+		<!-- 底部输入框 --  >
 		<div class="bottom-box">
 			<div class="input-box">
 				<el-input v-model="chatValue" size="large" />
